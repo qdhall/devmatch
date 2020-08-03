@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
     :address          => ENV['MAILGUN_SMTP_SERVER'],
     :user_name        => ENV['MAILGUN_SMTP_LOGIN'],
     :password         => ENV['MAILGUN_SMTP_PASSWORD'],
-    :domain           => 'https://blooming-reef-65951.herokuapp.com/'
+    :domain           => 'https://blooming-reef-65951.herokuapp.com/',
     :authentification => :plain,
 }
 
